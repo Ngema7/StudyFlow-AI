@@ -1,0 +1,140 @@
+# ==========================================
+# STUDYFLOW AI - FULL STACK PROJECT
+# Root .gitignore
+# ==========================================
+
+# ---------- Dependencies ----------
+node_modules/
+**/node_modules/
+
+# ---------- Environment Variables & Secrets ----------
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow safe example environment files
+!.env.example
+!.env.sample
+!**/.env.example
+!**/.env.sample
+
+# ---------- Build & Production ----------
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+release/
+**/release/
+
+# ---------- Logs ----------
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---------- Test & Coverage ----------
+coverage/
+**/coverage/
+.nyc_output/
+test-results/
+playwright-report/
+junit.xml
+
+# ---------- Cache ----------
+.cache/
+**/.cache/
+.parcel-cache/
+.vite/
+**/.vite/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# ---------- Temporary Files ----------
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ---------- Windows ----------
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------- Linux ----------
+*~
+
+# ---------- IDE & Editors ----------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.sublime-workspace
+*.code-workspace
+
+# ---------- Frontend: Vite / React ----------
+**/vite.config.*.timestamp-*
+**/vite.config.*.temp-*
+.eslintcache
+
+# ---------- Backend: Runtime Files ----------
+pids/
+*.pid
+*.pid.lock
+*.seed
+
+# ---------- Database Local Files ----------
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ---------- Uploads & Generated User Data ----------
+uploads/*
+!uploads/.gitkeep
+**/uploads/*
+!**/uploads/.gitkeep
+
+# ---------- Local Certificates & Private Keys ----------
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ---------- Package Manager ----------
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+
+# ---------- Optional Local Configuration ----------
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# ---------- OS / Tool Artifacts ----------
+.DS_Store?
+Icon?
+.npmrc.local
