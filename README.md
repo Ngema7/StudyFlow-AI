@@ -1,2 +1,2 @@
 # StudyFlow-AI
-discover by #Ngema-theeng
+discover by  Ngema-theeng
